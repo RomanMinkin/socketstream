@@ -1,6 +1,7 @@
 ![SocketStream!](https://github.com/socketstream/socketstream/raw/master/new_project/client/static/images/logo.png)
 
-# SocketStream [![Build Status](https://api.travis-ci.org/socketstream/socketstream.png?branch=master)](https://travis-ci.org/socketstream/socketstream) [![Dependency Status](https://david-dm.org/socketstream/socketstream.png)](https://david-dm.org/socketstream/socketstream#info=dependencies) [![devDependency Status](https://david-dm.org/socketstream/socketstream/dev-status.png)](https://david-dm.org/socketstream/socketstream#info=devDependencies)
+# SocketStream
+[![Build Status](https://api.travis-ci.org/socketstream/socketstream.png?branch=master)](https://travis-ci.org/socketstream/socketstream) [![Dependency Status](https://david-dm.org/socketstream/socketstream.png)](https://david-dm.org/socketstream/socketstream#info=dependencies) [![devDependency Status](https://david-dm.org/socketstream/socketstream/dev-status.png)](https://david-dm.org/socketstream/socketstream#info=devDependencies) [![Code Climate](https://codeclimate.com/github/socketstream/socketstream.png)](https://codeclimate.com/github/socketstream/socketstream)
 
 
 
@@ -330,6 +331,15 @@ We are moving towards linting all of the code in the lib directory with JSHint. 
     grunt jshint:server
     grunt jshint:client
 
+If you run these grunt tasks (at time of writing), you will encounter the following feedback:
+
+    Warning: Task "jshint:server" failed. Use --force to continue.
+
+    Aborted due to warnings.
+
+When SocketStream was written the codebase was not linted. We've decided to use Linting from now in order to enhance the quality of the codebase, but this means that you will see this message shown above, until we've managed to lint the codebase. The warning indicates that there is a lot of work to do.
+
+
 ### Recommended alternatives to SocketStream
 
 We hope you'll find SocketStream is a great fit for your app, but if it's not exactly what you're looking for, consider these alternatives:
@@ -348,11 +358,15 @@ More tests coming soon. Contributions very much appreciated.
 
 ### Contributors
 
-Creator and lead developer: Owen Barnes.
+Original Creator: Owen Barnes
 
-Special thanks to Paul Jensen for contributing code, ideas and testing early prototypes. Big thanks also to Addy Osmani for help with everything JavaScript related, Alan Milford for providing initial demos, and Craig Jordan Muir for designing the awesome new SocketStream logo.
+Lead Developer: Paul Jensen
 
-Thanks also to the many who have contributed code and ideas. We plan to properly feature contributors on our website in the near future.
+Big thanks to those who have contributed in the past: Addy Osmani for his help with everything JavaScript related, Alan Milford for providing initial demos, and Craig Jordan Muir for designing the SocketStream logo that has become synomymous with SocketStream's identity.
+
+Thanks to those who have recently been helping to improve SocketStream in recent months: Robert Hall for his work on the new documentation for SocketStream, Roman Minkin for his bug fixes, feature contributions and improvements to the framework, and others who are passionate about SocketStream and wish to see it grow. 
+
+Thanks also to the many who have contributed code and ideas. We plan to properly feature contributors on our website in the near future, as derived from analysing SocketStream's git commit history, as well as honoouring plugin authors.
 
 
 ### Credits
