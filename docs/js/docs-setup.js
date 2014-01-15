@@ -94,6 +94,11 @@ NG_DOCS={
   },
   "html5Mode": false,
   "startPage": "/api",
+  "discussions": {
+    "shortName": "socketstream",
+    "url": "http://socketstream.org",
+    "dev": true
+  },
   "scripts": [
     "angular.min.js"
   ]
